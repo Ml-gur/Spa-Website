@@ -5,7 +5,9 @@
 ````markdown
 # 🌿 African Luxury Spa Website
 
-An immersive, culturally rich African luxury spa platform featuring wellness treatment showcases, expert therapist profiles, and real-time booking capabilities.
+Created immersive African luxury spa website with cultural heritage sections, treatment showcases, and expert team profiles
+Implemented WhatsApp booking integration, M-Pesa payments, and AI-powered therapist matching system
+Added comprehensive admin dashboard with KES revenue tracking and African ingredient inventory management
 
 ---
 
