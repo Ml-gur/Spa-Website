@@ -14,7 +14,7 @@ const HeroSection = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://images.pexels.com/photos/6663382/pexels-photo-6663382.jpeg"
+          src="https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg"
           alt="African woman receiving luxury spa treatment at Serenity Spa Kenya"
           className="w-full h-full object-cover"
         />
