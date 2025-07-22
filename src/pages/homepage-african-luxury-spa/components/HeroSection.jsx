@@ -81,34 +81,42 @@ const HeroSection = () => {
               WhatsApp Booking
             </Button>
           </div>
+{/* Trust Indicators */}
+          <div className="flex flex-col items-center justify-center gap-4 sm:gap-6 lg:gap-8 mt-8 mb-20 sm:mb-16">
+            {/* Mobile: Stack vertically with better spacing */}
+            <div className="flex flex-col sm:hidden items-center gap-3 text-white bg-black/20 backdrop-blur-sm rounded-lg px-6 py-4 border border-white/10">
+              <div className="flex items-center gap-3">
+                <div className="w-2 h-2 bg-accent rounded-full flex-shrink-0"></div>
+                <span className="font-body text-sm font-medium text-white">Certified African Beauty Experts</span>
+              </div>
+              <div className="flex items-center gap-3">
+                <div className="w-2 h-2 bg-accent rounded-full flex-shrink-0"></div>
+                <span className="font-body text-sm font-medium text-white">Premium Nairobi Location</span>
+              </div>
+              <div className="flex items-center gap-3">
+                <div className="w-2 h-2 bg-accent rounded-full flex-shrink-0"></div>
+                <span className="font-body text-sm font-medium text-white">Traditional Ingredients</span>
+              </div>
+            </div>
 
-          {/* Trust Indicators */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-8 text-white/80">
-            <div className="flex items-center gap-2">
-              <div className="w-2 h-2 bg-accent rounded-full"></div>
-              <span className="font-body text-sm">Certified African Beauty Experts</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <div className="w-2 h-2 bg-accent rounded-full"></div>
-              <span className="font-body text-sm">Premium Nairobi Location</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <div className="w-2 h-2 bg-accent rounded-full"></div>
-              <span className="font-body text-sm">Traditional Ingredients</span>
+            {/* Desktop: Horizontal layout with enhanced visibility */}
+            <div className="hidden sm:flex flex-wrap items-center justify-center gap-6 lg:gap-8 text-white bg-black/15 backdrop-blur-sm rounded-full px-8 py-3 border border-white/20">
+              <div className="flex items-center gap-2">
+                <div className="w-2 h-2 bg-accent rounded-full flex-shrink-0"></div>
+                <span className="font-body text-sm font-medium whitespace-nowrap">Certified African Beauty Experts</span>
+              </div>
+              <div className="hidden lg:block w-px h-4 bg-white/30"></div>
+              <div className="flex items-center gap-2">
+                <div className="w-2 h-2 bg-accent rounded-full flex-shrink-0"></div>
+                <span className="font-body text-sm font-medium whitespace-nowrap">Premium Nairobi Location</span>
+              </div>
+              <div className="hidden lg:block w-px h-4 bg-white/30"></div>
+              <div className="flex items-center gap-2">
+                <div className="w-2 h-2 bg-accent rounded-full flex-shrink-0"></div>
+                <span className="font-body text-sm font-medium whitespace-nowrap">Traditional Ingredients</span>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20">
-        <div className="flex flex-col items-center text-white/70 animate-bounce">
-          <span className="font-body text-sm mb-2">Discover More</span>
-          <div className="w-6 h-10 border-2 border-white/30 rounded-full flex justify-center">
-            <div className="w-1 h-3 bg-white/50 rounded-full mt-2 animate-pulse"></div>
-          </div>
-        </div>
-      </div>
     </section>
   );
 };
